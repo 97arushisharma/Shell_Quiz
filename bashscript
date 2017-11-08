@@ -1,0 +1,76 @@
+$echo "Hello"
+$echo "Enter name"
+$read f
+$ a=20
+
+arithmetic operations
+$(($a+$b))
+- * % /
+for shell programming u need permission for execution. by default they hav rw permission
+
+if condition
+	then 
+
+else
+
+fi
+
+if condition
+	then
+elif
+	then
+else
+
+fi
+
+TEST
+if test $a -lt 6 or $b
+
+Numerical test
+
+-gt -lt -ge -le -ne -eq
+
+String test
+
+-n tells if the string ka size greater than 0 h ya nhi
+-z tells if 0 or not
+
+file test
+
+-s file name if the file exists or not
+-f if the file is a file or directory returns true if file
+-d vice versa of -f
+-r -w -x checks for permissions
+
+Logical operators
+-a for and
+-o for or
+! for not
+
+$echo "no."
+$read f
+	case $f in
+	1)echo
+		;;
+	2)........
+		;;
+	*)........ $i -lt 20)
+cat) [a-z]) [aeiou])
+
+while test $a -lt 3
+	do
+
+	done
+
+until condition
+	do
+
+	done
+
+for i in 1 2 3 4
+	do
+	done
+
+for i in {1..5}{10..100}
+
+find $?
